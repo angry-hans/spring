@@ -16,40 +16,8 @@
         <![endif]-->
     </head>
     <body>
-        <div class="container">
-            <?php echo $content; ?>
 
-            <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-            <div class="row">
-                <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
-                <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-            </div>
-
-            <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-            <div class="row">
-                <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-                <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-                <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-            </div>
-
-            <!-- Columns are always 50% wide, on mobile and desktop -->
-            <div class="row">
-                <div class="col-xs-6">.col-xs-6</div>
-                <div class="col-xs-6">.col-xs-6</div>
-            </div>
-
-            <div class="row">
-                <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
-                <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
-
-                <!-- Add the extra clearfix for only the required viewport -->
-                <div class="clearfix visible-xs"></div>
-
-                <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
-                <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
-            </div>
-        </div>
-
+        <?php echo $content; ?>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
